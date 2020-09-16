@@ -33,7 +33,7 @@ CloudFormer is itself an AWS CloudFormation stack, so the first step is to creat
 
 **To create a CloudFormer stack using the AWS CloudFormation console**
 
-1.  Log in to the AWS CloudFormation console and click **Create stack**\. For instructions on how to log in, see [Logging in to the AWS CloudFormation console](cfn-console-login.html)\. 
+1.  Log in to the AWS CloudFormation console and click **Create stack**\. If you do this from the **Stacks** page rather than the home page, choose **With new resources (standard)**. For instructions on how to log in, see [Logging in to the AWS CloudFormation console](cfn-console-login.html)\. 
 
 1. Select **Use a sample template**, and in the **Select a sample template** section, select **Choose a sample template** and then select **CloudFormer** from the drop\-down list\.
 
@@ -51,7 +51,7 @@ You can't leave the password blank, and you can't use special characters in the 
 
 1. Review the information about the stack and select **I acknowledge that this template may create IAM resources**\.
 
-1. After you finish reviewing the stack information, click **Create** to start creating the CloudFormer stack\.
+1. After you finish reviewing the stack information, click **Create stack** to start creating the CloudFormer stack\.
 
    CloudFormer is an AWS CloudFormation stack, so it must go through the normal stack creation process, which can take a few minutes\.
 
